@@ -1,0 +1,81 @@
+.board-parent {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.row-1 {
+  display: flex;
+  gap: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.game-board {
+  background-color: #1c61f2;
+  border-radius: 25px;
+  display: flex;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.game-row {
+  display: flex;
+  gap: 25px;
+}
+.sel-cell {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+.y-hover {
+  background-color: #fdc601;
+}
+.r-hover {
+  background-color: #d9313d;
+}
+.game-cell {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+.w-bg {
+  background-color: white;
+}
+.y-bg {
+  background-color: #fdc601;
+}
+.r-bg {
+  background-color: #d9313d;
+}
+
+.winning-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.winning-row button {
+  background-color: palevioletred;
+}
+.red-winner {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #d9313d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellow-winner {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: #fdc601;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
